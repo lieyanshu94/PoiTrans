@@ -1,0 +1,5 @@
+1592927711854	Extract local variable 'paragraphs'
+1592927878459	Extract local variable 'runs'
+1593237768697	Extract local variable 'readFile'
+1593269123038	Extract local variable 'segmentedTranslation'
+1593269887455	Extract local variable 'name'
