@@ -25,6 +25,7 @@ public class HttpPost {
             }
             conn.setConnectTimeout(SOCKET_TIMEOUT); // 设置相应超时
             conn.setRequestMethod(POST);
+            conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 		} catch (Exception e) {
 			// TODO: handle exception
 		} finally {
