@@ -16,7 +16,8 @@ public class TransApi {
 
     public String getTransResult(String query, String from, String to) {
         Map<String, String> params = buildParams(query, from, to);
-        return HttpGet.get(TRANS_API_HOST, params);
+//        return HttpGet.get(TRANS_API_HOST, params);
+        return HttpPost.Post(TRANS_API_HOST, params);
     }
 
     private Map<String, String> buildParams(String query, String from, String to) {
