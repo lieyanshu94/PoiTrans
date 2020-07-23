@@ -61,7 +61,6 @@ public class HttpPost {
             return null;
         }
         StringBuilder builder = new StringBuilder("");
-        builder.append("?");
         int i = 0;
         for (String key : params.keySet()) {
             String value = params.get(key);

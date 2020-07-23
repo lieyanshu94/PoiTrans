@@ -17,7 +17,7 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 import yhm.manager.FileAnalysis;
 
 public class TranslateFile {
-	private final Integer MAX_BYTE = 1000;
+	private final Integer MAX_BYTE = 6000;
 	private final String DOC = "doc";
 	private final String DOCX = "docx";
 	private final String TXT = "txt";
